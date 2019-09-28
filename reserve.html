@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700,900&display=swap" rel="stylesheet">
+    <script src="js/reserve.js"></script>
+    <title>訂購野餐</title>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <h1 class="logo">桃米野餐
+                <a href="index.html">
+                    <img src="img/picnic1.png">
+                </a>
+            </h1>
+            <input type="checkbox" name="menuControl" id="menuControl" class="menuControl">
+            <label for="menuControl" class="menuControlBtn">
+                <div class="row1"></div>
+                <div class="row2"></div>
+                <div class="row3"></div>
+            </label>
+
+            <ul class="menu">
+                <div class="logo">桃米野餐
+                    <a href="#">
+                        <img src="img/picnic1.png">
+                    </a>
+                </div>
+                <li><a href="productlist.html">餐食介紹</a></li>
+                <li><a href="placelist.html">場地介紹</a> </li>
+                <li><a href="trace.html">野人蹤跡</a></li>
+                <li class="focus"><a href="reserve.html">訂購野餐</a></li>
+                <div class="share">
+                    <a href="#"><img src="img/fb-2.png" alt=""></a>
+                    <a href="#"><img src="img/tw-2.png" alt=""></a>
+                    <a href="#"><img src="img/ig-2.png" alt=""></a>
+                    <!-- <a href="#"><img src="img/mail-2.png" alt=""></a> -->
+                </div>
+            </ul>
+        </nav>
+        <div class="productBanner">
+            <div class="productBannerTxt">
+                <h2>訂購野餐</h2>
+            </div>
+        </div>
+
+    </header>
+    <div class="full">
+        <section class="reserveContent">
+            <div class="stepbar first">
+                <div class="step">
+                    <!-- <span class="stepDot">1</span> -->
+                    <p>填寫訂購單</p>
+                </div>
+                <div class="step">
+                    <!-- <span class="stepDot">2</span> -->
+                    <p>選擇付款方式</p>
+                </div>
+                <p class="stepbarPs">步驟 1/3</p>
+                <div class="step">
+                    <!-- <span class="stepDot">3</span> -->
+                    <p>完成訂購 </p>
+                </div>
+            </div>
+            <h2>訂購須知</h2>
+            <div class="reserveTxt">
+                <h3>野餐資訊與費用</h3>
+                <p>
+                    參加對象：一般民眾<br>
+                    野餐時間：1.5小時 (建議時段：夏季15:00-16:30 / 冬季14:00-15:30)<br>
+                    野餐餐食：提供每人８道餐點(含主食、副食、甜點、當季水果與飲品)<br>
+                    野餐地點：國立暨南大學櫻花林 / 桃米樂野農場 / 桃米熊麋鹿了民宿<br>
+                    野餐費用：成人每人399元 / 兒童每人250元 / 嬰幼兒不收費 (不列入人數計算)<br>
+                    16人以上成行 (成人：國中1年級以上，兒童：國小1 ~ 6年級，嬰幼兒：幼稚園以下)<br>
+                    集合方式：訂購者請準時於您所指定的野餐時間自行抵達現場
+                </p>
+                <h3>注意事項</h3>
+                <p>
+                    (1) 《桃米野餐》目前尚未提供全素食餐點。<br>
+                    (2) 為能提供高品質的服務，請您務必完成訂購及金付款，敬請配合。<br>
+                    (3) 為避免浪費食材，已完成訂購而臨時無法參者，取消說明如下：<br>
+                    4.1 出發日前5日前 (不含出發日)通知取消，額退回款項<br>
+                    4.2 出發日前3 ~ 4日 (不含出發日)通知取消將退回已付金額的50%<br>
+                    4.3 出發日前2日至當日取消，不予退回款項
+                    4.4 於活動當天如因非可究責主辦單位之因素止參與活動，將不予退回款項<br>
+                    4.5 如因天災等不可抗力因素，我們將主動聯延期或退款<br>
+                    (5) 如您對野餐活動有特別的需求，請於訂購單中述，讓我們能提供更好的服務。
+                </p>
+            </div>
+            <form>
+                <div class="reserverColumnLeft">
+                    <div class="reserveTitlebox">
+                        <label for="name">訂購人姓名：
+                    </div>
+                    <div class="reserveNotebox">
+                        <input type="text" name="name" id="name">
+                    </div>
+                </div>
+                <div class="reserverColumnRight">
+                    <div class="reserveTitlebox">
+                        <label>野餐人數：</label>
+                    </div>
+                    <div class="reserveNotebox multiple">
+                        <div><label>成人：</label><input type="select" class="reserveNotebox_short"><span>人</span></div>
+                        <div><label>兒童：</label><input type="text" class="reserveNotebox_short"><span>人</span></div>
+                        <span class="ps">16人以上成行，成人399元/人、兒童250元/人</span>
+                    </div>
+                </div>
+                <div class="reserverColumnLeft">
+                    <div class="reserveTitlebox">
+                        <label>連絡電話：</label>
+                    </div>
+                    <div class="reserveNotebox">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="reserverColumnRight">
+                    <div class="reserveTitlebox">
+                        <label>電子信箱：</label>
+                    </div>
+                    <div class="reserveNotebox">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="reserverColumnLeft">
+                    <div class="reserveTitlebox">
+                        <label for="name">日期：
+                    </div>
+                    <div class="reserveNotebox">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="reserverColumnRight">
+                    <div class="reserveTitlebox">
+                        </label><label>時段：</label>
+                    </div>
+                    <div class="reserveNotebox">
+                        <input type="text">
+                        <div><span class="ps">建議時段：夏季15:00-16:30 / 冬季14:00-15:30</span></div>
+                    </div>
+                </div>
+                <div class="reserverColumnLeft">
+                    <div class="reserveTitlebox">
+                        <label>野餐地點：</label>
+                    </div>
+                    <div class="reserveNotebox choose multiple">
+                        <div>
+                            <input type="radio" name="place" id="flower">
+                            <label for="flower">櫻花林</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="place" id="bear">
+                            <label for="bear">桃米熊麋鹿了民宿</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="place" id="farm">
+                            <label for="farm">桃米樂野農場</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="reserverColumnRight">
+                    <div class="reserveTitlebox">
+                        <label>餐食需求：</label>
+                    </div>
+                    <div class="reserveNotebox multiple">
+                        <div>
+                            <label>不吃牛肉：</label>
+                            <input type="text" class="reserveNotebox_short">
+                            <span>人</span>
+                        </div>
+                        <div>
+                            <label>不吃豬肉：</label>
+                            <input type="text" class="reserveNotebox_short">
+                            <span>人</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="reservePsbox">
+                    <span>備註：</span>
+                    <textarea name="ps" id="ps" cols="30" rows="10"></textarea>
+                </div>
+                <div class="reservePrice">
+                    <p class="reservePriceAdult">
+                        <span>成人：</span>
+                        <span class="amount">0</span>
+                        <span>人</span>
+                        <span class="price">0</span>
+                        <span>元</span>
+                    </p>
+                    <p class="reservePriceChild">
+                        <span>兒童：</span>
+                        <span class="amount">0</span>
+                        <span>人</span>
+                        <span class="price">0</span>
+                        <span>元</span>
+                    </p>
+                    <p class="reservePriceTotal">
+                        <span>總費用：</span>
+                        <span class="price">0</span>
+                        <span>元</span>
+                    </p>
+                </div>
+            </form>
+            <div class="stepBtn"><a href="#" >下一步</a></div>
+        </section>
+    </div>
+    <footer>
+        <div class="full">
+            <div class="share">
+                <a href="#"><img src="img/fb.png" alt=""></a>
+                <a href="#"><img src="img/tw.png" alt=""></a>
+                <a href="#"><img src="img/ig.png" alt=""></a>
+                <a href="#"><img src="img/mail.png" alt=""></a>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2019 Responsive 桃米野餐</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
